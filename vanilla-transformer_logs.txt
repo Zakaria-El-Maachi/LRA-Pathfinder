@@ -1,0 +1,77 @@
+13.9s 1 
+13.9s 2 Available keys in easy dataset: ['images', 'labels']
+13.9s 3 
+13.9s 4 Dataset Information (easy):
+13.9s 5 Total samples: 199800
+13.9s 6 Positive samples (connected): 99985 (50.04%)
+13.9s 7 Negative samples (not connected): 99815 (49.96%)
+13.9s 8 Image shape: (32, 32)
+13.9s 9 Data type: uint8
+13.9s 10 Value range: [0, 255]
+13.9s 11 
+13.9s 12 Available keys in medium dataset: ['images', 'labels']
+13.9s 13 
+13.9s 14 Dataset Information (medium):
+13.9s 15 Total samples: 200000
+13.9s 16 Positive samples (connected): 100222 (50.11%)
+13.9s 17 Negative samples (not connected): 99778 (49.89%)
+13.9s 18 Image shape: (32, 32)
+13.9s 19 Data type: uint8
+13.9s 20 Value range: [0, 255]
+13.9s 21 
+13.9s 22 Available keys in hard dataset: ['images', 'labels']
+13.9s 23 
+13.9s 24 Dataset Information (hard):
+13.9s 25 Total samples: 200000
+13.9s 26 Positive samples (connected): 99920 (49.96%)
+13.9s 27 Negative samples (not connected): 100080 (50.04%)
+13.9s 28 Image shape: (32, 32)
+13.9s 29 Data type: uint8
+13.9s 30 Value range: [0, 255]
+13.9s 31 
+13.9s 32 ==================================================
+13.9s 33 Starting experiments for easy difficulty
+13.9s 34 ==================================================
+14.2s 35 
+14.2s 36 Training on easy dataset:
+24.7s 37 /opt/conda/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+24.7s 38 self.pid = os.fork()
+368.9s 39 /opt/conda/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+368.9s 40 self.pid = os.fork()
+4788.5s 41 
+4788.5s 42 Testing on easy dataset:
+4807.7s 43 
+4807.7s 44 ==================================================
+4807.7s 45 Starting experiments for medium difficulty
+4807.7s 46 ==================================================
+4807.7s 47 
+4807.7s 48 Training on medium dataset:
+8853.2s 49 
+8853.2s 50 Testing on medium dataset:
+8872.4s 51 
+8872.4s 52 ==================================================
+8872.4s 53 Starting experiments for hard difficulty
+8872.4s 54 ==================================================
+8872.4s 55 
+8872.4s 56 Training on hard dataset:
+13639.6s 57 
+13639.6s 58 Testing on hard dataset:
+13658.7s 59 
+13658.7s 60 Final Results:
+13658.7s 61 ==================================================
+13658.7s 62 
+13658.7s 63 EASY Dataset:
+13658.7s 64 Test Accuracy: 49.71%
+13658.7s 65 Test Loss: 0.6932
+13658.7s 66 
+13658.7s 67 MEDIUM Dataset:
+13658.7s 68 Test Accuracy: 50.04%
+13658.7s 69 Test Loss: 0.6933
+13658.7s 70 
+13658.7s 71 HARD Dataset:
+13658.7s 72 Test Accuracy: 49.50%
+13658.7s 73 Test Loss: 0.6932
+13663.9s 74 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+13664.4s 75 [NbConvertApp] Writing 566130 bytes to __notebook__.ipynb
+13665.7s 76 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+13666.5s 77 [NbConvertApp] Writing 766058 bytes to __results__.html
